@@ -1,0 +1,26 @@
+<head>
+    <title>Films</title>
+    <link rel="stylesheet" type="text/css" href="./main.css">
+</head>
+<body>
+
+  uwus
+  <!--<div id="spinner"></div> -->
+
+  
+
+  <div class="content">
+  
+    <template name="movies">
+
+     <h1>Vos films</h1>
+      {{#each movies}}
+      <h3>{{ title }}</h3>
+      <img src="https://www.themoviedb.org/t/p/w185/{{poster_path}}">
+      <button data-id="{{id}}">Like ! </button>
+      <p>Nombre de like : {{likes}}</p>
+      {{/each}}
+
+    </template>
+  </div>
+</body>
