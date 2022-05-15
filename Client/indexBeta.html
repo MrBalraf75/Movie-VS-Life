@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Movie VS Life</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <link rel="icon" href="../assets/fish.png" />
+</head>
+<body>
+    <header>
+        
+<div class="header">
+
+    <!--Content before waves-->
+    <div class="inner-header flex">
+    <!--Just the logo and the title of our exquisite web site-->
+    <img src="../assets/fish.png" style="width: 5%; margin:1%">
+    <h1>Movie VS Life</h1>
+    </div>
+    
+    <!--Waves Container-->
+    <div>
+    <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+    viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+    <defs>
+    <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+    </defs>
+    <g class="parallax">
+    <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
+    <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
+    <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
+    <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+    </g>
+    </svg>
+    </div>
+    <!--Waves end-->
+    
+    </div>
+    </header>
+<div id="spinner"></div>
+<div id="content" class="content">
+  <h1 class="heading">Vos films-</h1>
+  <a class="card" href="#!">
+    <div class="front" style="background-image: url(//source.unsplash.com/300x401);">
+      <p></p>
+    </div>
+    <div class="back">
+      <div class="release_date"></div>
+      <div>
+        <p></p>
+        <p></p>
+        <button class="button"></button>
+      </div>
+    </div>
+  </a>
+</div>
+
+</body>
+</html>
+<body>
+  <header>
+    <form id="form_search" class="div_search">
+      <p class="rechercher">Rechercher</p>
+      <label for="searchbar"></label>
+      <input style="color: #fec45e;" class="search" id="search" onkeyup="search_movies()" type="text" name="search" placeholder="Un titre, un mot...">
+      <input type="button" class="x" onclick="recherche()" value="X"></form>
+  </header>
+<main id="main">
+<div class="movie">
+  
+  
+  <div class="movie-info">
+    <h3></h3>
+    <span class="green"></span>
+  </div>
+  <div class="overview">
+  </div>
+
+</div>
+</main>
+
+
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
+
+
+
+</body>
+</html>
